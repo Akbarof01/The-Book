@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(./book.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1{
+    color: limegreen;
+  }
+  .translator {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: limegreen;
+  }
+  
+  .input-section {
+    margin-bottom: 20px;
+    color: limegreen;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100px;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: limegreen;
+  }
+  
+  button {
+    padding: 8px 20px;
+  }
+  
+  .saved-words {
+    text-align: left;
+    color: limegreen;
+  }
+  
+  .saved-words ul {
+    list-style: none;
+    padding: 0;
+    color: limegreen;
+  }
+  
+  .saved-words li {
+    margin-bottom: 10px;
+    color: limegreen;
+  }
+  
+  .delete-btn {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .delete-btn:hover{
+    background-color: #ff6060;
+    color: white;
+  }
+  .Tavsif,
+  #Tavsif{
+    width: 200px;
+    color: limegreen;
+  }
+  button{
+    color: white;
+    background-color: forestgreen;
+    border: none;
+  }
+  button:hover{
+    background-color: lightgreen;
+    color: rgb(82, 82, 82);
+  }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="website icon" type="jpg" href="./icon.jpg">
+    <title>The Book</title>
+</head>
+<body>
+    <div class="translator">
+        <h1>THE BOOK!</h1>
+        <div class="input-section">
+          <label for="englishWord">English :</label>
+          <input type="text" id="englishWord" placeholder=" English ">
+          <label for="uzbekWord">Uzbek :</label>
+          <input type="text" id="uzbekWord" placeholder=" Uzbek ">
+          <br>
+          <h4>Tavsif</h4>
+          <label class="Tavsif" for="Tavsif"></label>
+          <textarea id="Tavsif" placeholder=" "></textarea>
+          <br>
+          <button onclick="saveTranslation()"> tarjima</button>
+        </div>
+        <div class="saved-words">
+          <h2>Translations:</h2>
+          <ul id="translationsList"></ul>
+        </div>
+      </div>
+      <script src="./main.js"></script>  
+</body>
+</html>
